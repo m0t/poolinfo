@@ -9,10 +9,10 @@ SYM_FIELD g_StructPoolDescriptor[] =
     DECL_FIELD(PendingFreeDepth),
     DECL_FIELD(RunningAllocs),
     DECL_FIELD(RunningDeAllocs),
-    DECL_FIELD(TotalBigPages),
+	DECL_FIELD(BigPagesAllocated),
     DECL_FIELD(ThreadsProcessingDeferrals),
-    DECL_FIELD(TotalBytes),
-    DECL_FIELD(TotalPages),
+	DECL_FIELD(BytesAllocated),
+	DECL_FIELD(PagesAllocated),
     DECL_FIELD(ListHeads),
     END_FIELD
 };
